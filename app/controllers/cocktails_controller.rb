@@ -6,7 +6,6 @@ def index
   def show
     @dose = Dose.new
     @cocktail = Cocktail.find(params[:id])
-
   end
 
   def new
